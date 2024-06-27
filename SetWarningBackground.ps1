@@ -1,2 +1,0 @@
-#Set-ExecutionPolicy -ExecutionPolicy Bypass
-Copy-Item -Path "C:\inepro_ip\Sperrhintergrund.jpg" -Destination "C:\Users\Public\SiteKiosk\content\files\projects\529dd888958776b029c40850\000000000000000000000000\5b4de8b62c31932c22000001_Hintergrund.jpg" -Force
