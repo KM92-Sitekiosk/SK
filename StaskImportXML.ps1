@@ -1,0 +1,2 @@
+Register-ScheduledTask -Xml (get-content 'Check Sperrhintergrund im Sitekiosk.xml' | out-string) -TaskName "Check Sperrhintergrund im Sitekiosk" -User "$env:COMPUTERNAME\$env:USERNAME" -Password 'DK-Rw20!23gu' –Force
+#Register-ScheduledTask -Xml (get-content 'Check Sperrhintergrund im Sitekiosk.xml' | out-string)
